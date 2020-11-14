@@ -1,4 +1,4 @@
-def bfs(graph, vertex):
+def bfs(graph, vertex=0):
 	visited = [False]*len(graph)
 	queue = []
 	queue.append(vertex)
@@ -24,4 +24,4 @@ if __name__ == '__main__':
 	graph[4] = [0,2]
 	graph[5] = [5,3,1]
 
-	bfs(graph, 2)
+	bfs(graph)
