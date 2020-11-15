@@ -5,7 +5,7 @@ npts = 300
 max_iter = 100
  
 X = np.linspace(-2, 1, 2 * npts)
-Y = np.linspace(-1, 1, npts)
+Y = np.linspace(-1.25, 1.25, 2 * npts)
  
 C = X[:, None] + 1j * Y
 Z = np.zeros_like(C)
