@@ -1,0 +1,10 @@
+This is a problem on functions from {0,1,..,n-1} to itself. Let f be any such function. 
+Consider the sequence f^0, f^1, f^2, ...., of such functions, where f^0 is the identity function, defined by 
+f^0(x) = x for all 0 <= x < n, and f^i is defined by f^i(x) = f(f^{i-1}(x)). 
+Since there are only finitely many such functions, this sequence has to repeat at some point. 
+The problem is to compute the smallest values of i >= 0 and j > 0, for a given f, such that the function f^i equals the function f^{i+j}.
+
+Suppose the numbers represent students in a class and f(x) denotes the closest friend of x in the class. 
+It is required to select a subset R of students such that for every student x, at least one of x and f(x) belongs to R. 
+In other words, if a student is not selected then her closest friend must be selected.
+Given the function f, it is required to find the minimum number of students that must be selected, to satisfy this.
